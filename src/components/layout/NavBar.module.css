@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background-color: #060d15;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.5rem;
+}
+.navdiv {
+  text-decoration: none;
+  color: #06f3af;
+  padding-left: 10%;
+  padding-right: 10%;  
+}
+
+.navdiv:hover {
+    font-size: 1.7rem;
+    border: solid;
+    border-color: #06f3af;
+    font-weight: bold;
+    
+    
+    
+    }
+
+.logo {
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: black;
+  background-color: #06f3af;
+  font-weight: bold;
+  padding-right:1%;
+  padding-left:1%;
+  
+  
+  
+}
+
+
