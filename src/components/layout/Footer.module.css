@@ -1,0 +1,26 @@
+.footerdiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 200px;
+  background-color: #070f1d;
+    
+  font-size: 1.5rem;
+}
+.footer {
+  background-color: #070c15;
+}
+
+.copyrights {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+.footerlink {
+  text-decoration: none; 
+  padding-right: 2%;
+  color: #06f3af;
+  
+}

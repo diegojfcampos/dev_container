@@ -3,6 +3,7 @@ import styles from './NavBar.module.css';
 
 function NavBar() {
   return (
+    
     <nav className={styles.navbar}>
         <div className={styles.logo}> 
             <Link to="/" className={styles.logo}>DevContainer</Link>

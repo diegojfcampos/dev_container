@@ -1,4 +1,5 @@
 .navbar {
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,23 +8,23 @@
   padding-left: 10%;
   padding-right: 10%;
   font-size: 1.5rem;
+  border-bottom: 4px solid #06f3af;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .navdiv {
   text-decoration: none;
   color: #06f3af;
   padding-left: 10%;
-  padding-right: 10%;  
+  padding-right: 10%;
 }
 
 .navdiv:hover {
-    font-size: 1.7rem;
-    border: solid;
-    border-color: #06f3af;
-    font-weight: bold;
-    
-    
-    
-    }
+  font-size: 1.7rem;
+  border: solid;
+  border-color: #06f3af;
+  font-weight: bold;
+}
 
 .logo {
   font-size: 3.5rem;
@@ -31,11 +32,7 @@
   color: black;
   background-color: #06f3af;
   font-weight: bold;
-  padding-right:1%;
-  padding-left:1%;
-  
-  
-  
+  padding-right: 1%;
+  padding-left: 1%;
+  border-radius: 3%;
 }
-
-

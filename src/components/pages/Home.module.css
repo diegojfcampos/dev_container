@@ -1,0 +1,83 @@
+/* STARTING STYLES*/
+
+.main {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  color: white;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+}
+
+.mainTitle {
+  font-size: 2em;
+  color: #06f3af;
+}
+.generaltitles {
+  font-size: 1.5em;
+  color: #06f3af;
+}
+
+.centralBanners {
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+  flex-direction: flex-column;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  padding-left: 2%;
+}
+
+.htmlContent {
+  display: flex;
+}
+.cssContent {
+  display: flex;
+}
+
+/*Table Content Styles*/
+.table {
+  border-collapse: collapse;
+}
+
+.table td {
+  height: 10vh;
+}
+.table thead {
+  border: #333 solid;
+}
+
+.table th {
+  text-align: left;
+}
+
+.table td:first-child {
+  width: 25%;
+}
+
+.table th,
+td {
+  border: #333 solid;
+  padding-left: 2%;
+}
+
+/*Responsivity adjusts*/
+@media only screen and (max-width: 800px) {
+  .htmlContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cssContent {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    height: 50vh;
+    width: 150vw;
+  }
+}

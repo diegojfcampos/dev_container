@@ -1,20 +1,20 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './NavBar.module.css';
+import styles from './Footer.module.css';
 
-function NavBar() {
-  return (
-    <nav className={styles.navbar}>
-        <div className={styles.logo}> 
-            <Link to="/" className={styles.logo}>DevContainer</Link>
-        </div>
-        <div className={styles.navidv}>
-            <Link to="/" className={styles.navdiv}>Home</Link>
-            <Link to="/contact" className={styles.navdiv}>Contact</Link>
-            <Link to="/about" className={styles.navdiv}>About</Link>
-        </div>
-        
-    </nav>
-  );
+function Footer() {
+return (
+<footer className={styles.footer}>
+    <div className={styles.footerdiv}>
+        <Link to='http://linkedin.com/in/diegojfcampos' className={styles.footerlink}target="_blank"><img src="/icons8-linkedin-circled-48.png"></img></Link>
+        <Link to='http://github.com/diegojfcampos' className={styles.footerlink} target="_blank"><img src="/icons8-github-48.png"></img></Link>
+    </div>
+    <p className={styles.copyrights}><span>Dev-Container &copy</span></p>
+
+
+
+</footer>
+);
 }
 
-export default NavBar;
+export default Footer;
