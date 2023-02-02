@@ -2,11 +2,20 @@
     display:flex;
     margin-top: 0;
     padding-top: 0;
-    height: 150px;
+    height: 120px;
     align-items: center;
     background: rgb(14,66,137);
     background: linear-gradient(83deg, rgba(14,66,137,1) 0%, rgba(6,243,224,1) 69%, rgba(6,243,224,1) 100%);
     padding-left: 10%;
     font-size: 1.5rem;
     color: white;
+    
 }
+
+@media only screen and (max-width: 800px) {
+    .banner {
+      font-size: 1rem;
+      height: 100px;
+    }
+   
+  }
