@@ -17,5 +17,11 @@
       font-size: 1rem;
       height: 100px;
     }
-   
+
+    @media only screen and (max-width: 400px) {
+      .banner {
+        font-size: 0.7rem;
+        
+      }
+    }
   }

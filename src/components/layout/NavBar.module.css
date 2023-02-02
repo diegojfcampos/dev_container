@@ -5,12 +5,11 @@
   height: 120px;
   background-color: #060d15;
   padding-left: 10%;
-  padding-right: 8%;
+  padding-right: 5%;
   font-size: 1.5rem;
   border-bottom: 4px solid #06f3af;
   margin-bottom: 0;
   padding-bottom: 0;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -51,6 +50,9 @@
 }
 
 .mobile {
+  display: flex;
+  justify-content: center;
+  align-itens: center;  
   cursor: pointer;
   display: none;
 }
@@ -133,5 +135,15 @@
   .mobile div {
     width: 45px;
     height: 1px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+  .mobile div {
+    width: 40px;
+    height: 0px;
   }
 }
