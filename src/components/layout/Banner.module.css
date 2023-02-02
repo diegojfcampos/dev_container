@@ -20,8 +20,7 @@
 
     @media only screen and (max-width: 400px) {
       .banner {
-        font-size: 0.7rem;
-        
+        font-size: 0.7rem;        
       }
     }
   }

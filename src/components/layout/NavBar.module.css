@@ -109,14 +109,13 @@
 
   .mobile {
     display: inline;
-    margin-left: 100px;
+    margin-left: 20%;
   }
 
   .navMobile {
     display: flex;
     flex-direction: column;
     background-color: rgba(6, 13, 21, 0.9);
-
     position: absolute;
     top: 120px;
     left: auto;
