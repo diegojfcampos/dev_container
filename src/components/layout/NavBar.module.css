@@ -140,10 +140,10 @@
 
 @media only screen and (max-width: 400px) {
   .logo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .mobile div {
     width: 40px;
-    height: 0px;
+    
   }
 }
