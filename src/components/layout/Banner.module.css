@@ -16,6 +16,7 @@
     .banner {
       font-size: 1rem;
       height: 100px;
+      
     }
 
     @media only screen and (max-width: 400px) {
