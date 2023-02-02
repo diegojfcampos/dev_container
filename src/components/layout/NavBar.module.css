@@ -100,9 +100,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .navbar {
-    position: relative;
-  }
+ 
   .DeskTop {
     display: none;
   }
