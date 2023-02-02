@@ -82,7 +82,10 @@ td {
   }
 
   @media only screen and (max-width: 400px){
-    height: 32vh;
+    .img {
+      height: 32vh;
+      
+    }
   }
  
 }
