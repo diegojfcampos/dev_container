@@ -26,7 +26,7 @@
   flex-direction: flex-column;
   flex-wrap: wrap;
   margin-top: 2%;
-  padding-left: 2%;
+
 }
 
 .htmlContent {
@@ -78,6 +78,7 @@ td {
 
   .img {
     height: 50vh;
-    width: 150vw;
+    width: 100%;
   }
+ 
 }

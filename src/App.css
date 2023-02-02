@@ -1,8 +1,14 @@
+.App{
+   scrollbar-color: #06f3af;
+   scrollbar-base-color: #06f3af;
+}
 
 .body{
    background-color: #060d15;
    margin-top: 120px;
 }
+
+
 
 @media only screen and (max-width: 1100px) {
    .body{     
