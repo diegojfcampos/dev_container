@@ -1,0 +1,11 @@
+
+.titleContainer{
+    display:flex;
+    border-top: 5px solid #06f3af;
+    justify-content: space-between;
+    alignt-itens: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: #06f3af;
+    
+}

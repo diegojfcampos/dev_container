@@ -1,0 +1,35 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  
+
+  color: #06f3af;
+}
+
+.title {
+  border-bottom: 4px solid #06f3af;
+  font-size: 2rem;
+}
+
+.list {
+  font-size: 1.5rem;
+}
+
+.list li {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 5%;
+}
+
+.list li Link {
+  text-decoration: none;
+  color: white;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}

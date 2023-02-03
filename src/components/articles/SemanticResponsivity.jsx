@@ -1,5 +1,5 @@
-import styles from "./Home.module.css";
-function Home() {
+import styles from "./SemanticResponsivity.module.css";
+function SemanticResponsivity() {
   return (
     <main className={styles.main}>
 
@@ -7,7 +7,7 @@ function Home() {
         <h1 className={styles.mainTitle}>          
           How semantic HTML, CSS Flex box and Grid layout Work?
         </h1>
-        <img src="../assets/html5-and-css3-banner.png" alt="logo HTMl and CSS" className={styles.img}></img>        
+        <img src="../assets/articleImages/html5-and-css3-banner.png" alt="logo HTMl and CSS" className={styles.img}></img>        
       </section>
 
       <article id="introduction-content">
@@ -46,7 +46,7 @@ function Home() {
       </article>
 
       <article className={styles.htmlContent}>
-        <img src="../assets/logohtml.png" alt="Logo" height="250px"
+        <img src="../assets/articleImages/logohtml.png" alt="Logo" height="250px"
           width="250px" className={styles.htmlContent}></img>
 
         <p>
@@ -82,7 +82,7 @@ function Home() {
         </p>
         <img
           id="logoCSS"
-          src="../assets/CSS-3-logo-vector-01.svg"
+          src="../assets/articleImages/CSS-3-logo-vector-01.svg"
           alt="LogCss"
           height="250px"
           width="250px"
@@ -91,7 +91,7 @@ function Home() {
 
       <article className={styles.centralBanners}>       
         
-        <img id="imgTec" src="../assets/semantic.jpg" alt="ilustration html semantic" width="642" height="321" className={styles.img}></img>
+        <img id="imgTec" src="../assets/articleImages/semantic.jpg" alt="ilustration html semantic" width="642" height="321" className={styles.img}></img>
         
         <p>
           Semantic means "relating to meaning". Writing semantic HTML means
@@ -111,7 +111,7 @@ function Home() {
       <article className={styles.centralBanners}>
         <img
           id="imgGrid"
-          src="../assets/css-gridlayout.png"
+          src="../assets/articleImages/css-gridlayout.png"
           alt="describing a Grid Layout"
           width="642" height="321"
           className={styles.img}
@@ -263,7 +263,7 @@ function Home() {
 
       <section className={styles.centralBanners}>
         <img className={styles.img}         
-          src="../assets/flexbox.jpg"
+          src="../assets/articleImages/flexbox.jpg"
           alt="ilustrating flexbox"
           width="642" height="321"
           
@@ -394,4 +394,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default SemanticResponsivity;
