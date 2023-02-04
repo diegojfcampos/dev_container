@@ -2,7 +2,6 @@ import React from "react";
 import RandomImage from "./RandImage";
 import styles from "./Cards.module.css";
 
-
 function Card(props) {
   return (
     <div className={styles.card}>
@@ -11,7 +10,6 @@ function Card(props) {
         <p className={styles.cardTitle}>{props.title} </p>
         <p>{props.subject}</p>
       </div>
-     
     </div>
   );
 }
