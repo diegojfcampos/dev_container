@@ -1,11 +1,15 @@
 .App{
-   scrollbar-color: #06f3af;
-   scrollbar-base-color: #06f3af;
+   background-color: #060d15;
+   zoom: 90%;
+   margin-top: 120px;
+   font-family:  sans-serif;
+   
 }
 
 .body{
    background-color: #060d15;
-   margin-top: 120px;
+   margin-top: 120px;   
+   zoom: 90%;
    
 }
 
