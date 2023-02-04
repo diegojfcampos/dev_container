@@ -1,7 +1,7 @@
 import styles from "./SemanticResponsivity.module.css";
 function SemanticResponsivity() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
 
       <section className={styles.centralBanners}>
         <h1 className={styles.mainTitle}>          
@@ -390,7 +390,7 @@ function SemanticResponsivity() {
           </tbody>
         </table>
       </article>
-    </main>
+    </div>
   );
 }
 

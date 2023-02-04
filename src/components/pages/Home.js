@@ -8,9 +8,11 @@ function Home() {
   return (
     
         <main className={styles.main}>
-            <div className={styles.cardBody}>         
+            <div className={styles.cardBody}>  
+                
                 <div className={styles.cardContainer}>
                     <Link to="/SemanticResponsivity" className={styles.cardLink}>  
+                    
                         <div className={styles.cardArea}>
                             <Cards
                             className={styles.cardImage}

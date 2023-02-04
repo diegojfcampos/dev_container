@@ -55,6 +55,7 @@
   text-align: center;
   z-index: 1;
   text-decoration: none;
+  color: black;
   
 }
 
@@ -62,7 +63,9 @@
   transform: scale(1.1);
   transition: all 0.3s ease;
   cursor: pointer;
+  
 }
+
 
 .sidebarContainer {
   display: flex;
