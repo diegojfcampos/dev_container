@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from "./RandImage.module.css";
 
 const images = [
   {
@@ -43,7 +44,7 @@ function RandomImage() {
   }, []);
 
   return (
-    <img src={selectedImage.url} alt={selectedImage.alt} />
+    <img src={selectedImage.url} alt={selectedImage.alt} className={styles.cardImage}/>
   );
 }
 

@@ -6,7 +6,7 @@ import styles from "./Cards.module.css";
 function Card(props) {
   return (
     <div className={styles.card}>
-      <RandomImage />
+      <RandomImage className={styles.randimage} />
       <div className={styles.titleContainer}>
         <p className={styles.cardTitle}>{props.title} </p>
         <p>{props.subject}</p>

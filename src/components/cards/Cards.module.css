@@ -9,3 +9,12 @@
     color: #06f3af;
     
 }
+
+@media only screen and (max-width: 400px) {
+    .titleContainer {
+        width: 60%;
+        margin-left: 20%;
+    }  
+  
+  
+  }

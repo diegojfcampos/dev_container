@@ -7,7 +7,7 @@ import styles from "./Home.module.css"
 function Home(){
    return(
     <main className={styles.main}> 
-    
+
         <div className={styles.cardBody}>
             <div className={styles.cardContainer}>
                 <div className={styles.cardArea}>
@@ -55,7 +55,7 @@ function Home(){
             <div className={styles.cardContainer}>
                 <div className={styles.cardArea}>
                     <Cards 
-                        className={styles.cardImage}
+                        className={styles.cardImageRand}
                         title="Java FX" 
                         subject = "03/02/2023"
                     ></Cards>
