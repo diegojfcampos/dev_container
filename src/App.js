@@ -14,7 +14,7 @@ function App() {
     <div className='body'>
     <Router>
       <NavBar/>
-      <Banner  title="Blog"/>
+      <Banner  title="Articles"/>
       <Routes>  
         <Route path="/" element={<Home/>} />
         <Route path="/SemanticResponsivity" element={<SemanticResponsivity/>} />

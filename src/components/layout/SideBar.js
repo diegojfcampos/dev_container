@@ -26,9 +26,30 @@ function SideBar() {
             <span>1</span>
         </li>
         <li>
-            <Link to="/" className={styles.link}> React </Link>
+            <Link to="/" className={styles.link}> Java Spring Boot </Link>
             <span>1</span>
         </li>
+        <li>
+            <Link to="/" className={styles.link}> MySql </Link>
+            <span>1</span>
+        </li>
+        <li>
+            <Link to="/" className={styles.link}> ReactJS </Link>
+            <span>1</span>
+        </li>
+        <li>
+            <Link to="/" className={styles.link}> NodeJS </Link>
+            <span>1</span>
+        </li>
+        <li>
+            <Link to="/" className={styles.link}> MongoDB </Link>
+            <span>1</span>
+        </li>
+        <li>
+            <Link to="/" className={styles.link}> PHP Laravel </Link>
+            <span>1</span>
+        </li>
+        
       </div>
     </div>
   );

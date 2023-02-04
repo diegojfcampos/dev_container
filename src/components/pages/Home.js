@@ -17,7 +17,7 @@ function Home() {
                             <Cards
                             className={styles.cardImage}
                             title="HTML/CSS"
-                            subject="03/02/2023"
+                            subject="10/12/2022"
                             ></Cards>
                             <div className={styles.cardImageTitle}>
                             <h2>HTML AND CSS</h2>
@@ -33,7 +33,7 @@ function Home() {
                             <Cards
                             className={styles.cardImage}
                             title="Java FX"
-                            subject="03/02/2023"
+                            subject="02/02/2023"
                             ></Cards>
                         <div className={styles.cardImageTitle}>
                             <h2>Java FX</h2>
@@ -48,11 +48,11 @@ function Home() {
                         <div className={styles.cardArea}>
                             <Cards
                             className={styles.cardImage}
-                            title="Java FX"
+                            title="Java"
                             subject="03/02/2023"
                             ></Cards>
                             <div className={styles.cardImageTitle}>
-                            <h2>Java</h2>
+                            <h2>Java Spring Boot</h2>
                             <p>Main functions of Spring Boot</p>
                             </div>
                         </div>
@@ -64,8 +64,8 @@ function Home() {
                         <div className={styles.cardArea}>
                             <Cards
                             className={styles.cardImageRand}
-                            title="Java FX"
-                            subject="03/02/2023"
+                            title="ReactJS"
+                            subject="04/02/2023"
                             ></Cards>
                             <div className={styles.cardImageTitle}>
                             <h2>React JS</h2>
