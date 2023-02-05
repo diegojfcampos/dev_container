@@ -11,18 +11,28 @@ import SemanticResponsivity from './components/articles/SemanticResponsivity';
 
 function App() {
   return (
+
     <div className='body'>
-    <Router>
-      <NavBar/>
-      <Banner  title="Articles"/>
-      <Routes>  
-        <Route path="/" element={<Home/>} />
-        <Route path="/SemanticResponsivity" element={<SemanticResponsivity/>} />
-        <Route path="/about" element={<About/>} />     
-      </Routes>   
-      <Footer />
-    </Router>
+      <Router>      
+        <header>
+          <nav>
+            <NavBar/>
+          </nav>
+          <Banner  title="Articles"/>
+        </header>
+        <div>
+          <Routes>  
+            <Route path="/" element={<Home/>} />
+            <Route path="/SemanticResponsivity" element={<SemanticResponsivity/>} />
+            <Route path="/about" element={<About/>} />     
+          </Routes>   
+        </div>
+        <footer>
+          <Footer />
+        </footer>      
+      </Router>
     </div>
+    
   );
 }
 
