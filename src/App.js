@@ -1,38 +1,38 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import './App.css';
-import NavBar from './components/layout/NavBar';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Footer from './components/layout/Footer'
-import Banner from './components/layout/Banner'
-import SemanticResponsivity from './components/articles/SemanticResponsivity';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/layout/NavBar";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Footer from "./components/layout/Footer";
+import Banner from "./components/layout/Banner";
+import Contact from "./components/pages/Contact";
 
 
 function App() {
   return (
-
-    <div className='body'>
-      <Router>      
+    <div className="body">
+      <Router>
         <header>
           <nav>
-            <NavBar/>
+            <NavBar />
           </nav>
-          <Banner  title="Articles"/>
+          <Banner  />
         </header>
         <div>
-          <Routes>  
-            <Route path="/" element={<Home/>} />
-            <Route path="/SemanticResponsivity" element={<SemanticResponsivity/>} />
-            <Route path="/about" element={<About/>} />     
-          </Routes>   
+          <Routes>
+            
+            <Route exact path="*" element={<Home />} />
+            <Route exact path="/home/*" element={<Home />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/about" element={<About />} />
+          </Routes>
         </div>
         <footer>
           <Footer />
-        </footer>      
+        </footer>
       </Router>
     </div>
-    
   );
 }
 

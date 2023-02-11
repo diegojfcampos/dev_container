@@ -1,31 +1,33 @@
-import { useEffect, useState } from "react";
+import  {React, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import SemanticResponsivity from "./SemanticResponsivity";
 import SideBar from "../layout/SideBar";
 import styles from "./Article.module.css";
 
-function Article(props) {
-  const [RenderPage, setPage] = useState(null);
+function Article() {
+  const {page} = useParams();
+  const [currentPage, setCurrentPage] = useState(page);
 
   useEffect(() => {
-    switch (props.page) {
-      case "SemanticResponsivity":
-        setPage(SemanticResponsivity);
-        break;
-      default:
-        setPage(null);
-    }
-  }, [props.page]);
+    setCurrentPage(page);
+  }, [page]);
 
-  if (!RenderPage) {
-    return null;
-  }
+  const renderComponent = (componentName) => {
+    switch (componentName) {
+      case "semanticresponsivity":
+        return <SemanticResponsivity />;
+        
+      default:
+        return <div>Invalid component</div>;
+    }
+  };
 
   return (
     <section className={styles.body}>
-      <main lassName={styles.main}>
-        <RenderPage />
+      <main className={styles.main}>
+        {renderComponent(currentPage)}
       </main>
-      <nav lassName={styles.sidebar}>
+      <nav className={styles.sidebar}>
         <SideBar />
       </nav>
     </section>

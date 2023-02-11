@@ -18,14 +18,14 @@ function NavBar() {
         </div>
         {isOpen && (
           <div className={styles.navMobile}>
-            <Link to="/" className={styles.navdiv} onClick={() => setIsOpen(!isOpen)} >Home</Link>
+            <Link to="/home" className={styles.navdiv} onClick={() => setIsOpen(!isOpen)} >Home</Link>
             <Link to="/contact" className={styles.navdiv} onClick={() => setIsOpen(!isOpen)}>Contact</Link>
             <Link to="/about" className={styles.navdiv} onClick={() => setIsOpen(!isOpen)}>About</Link>
           </div>
         )}
 
-        <div className={styles.DeskTop}>
-            <Link to="/" className={styles.DeskTopLink}>Home</Link>
+        <div className={styles.DeskTop}>          
+            <Link to="/home" className={styles.DeskTopLink}>Home</Link>
             <Link to="/contact" className={styles.DeskTopLink}>Contact</Link>
             <Link to="/about" className={styles.DeskTopLink}>About</Link>
           </div>
