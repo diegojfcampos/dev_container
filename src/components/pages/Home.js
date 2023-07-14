@@ -2,17 +2,45 @@ import Cards from "../../components/cards/Cards.js";
 import Sidebar from "../layout/SideBar";
 import styles from "./Home.module.css";
 import { Link, Route, Routes } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 import SemanticResponsivity from "../articles/SemanticResponsivity";
 import SpringBootFunctions from "../articles/SpringBootFunctions";
 import ReactStateHooks from "../articles/ReactStateHooks";
 import JavaFXEnvironment from "../articles/JavaFXEnvironment";
 
 function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.cardBody}>
 
+  const [showArticle, setShowArticle] = useState(false)
+  
+  return (
+    
+    <main className={styles.main}>
+      
+      <div className={styles.cardBody}>
+      <div>
+        <Routes>
+          <Route
+            exact
+            path="/semanticresponsivity"
+            element={<SemanticResponsivity />}
+          ></Route>
+          <Route
+            exact
+            path="/springbootfunctions"
+            element={<SpringBootFunctions />}
+          ></Route>
+          <Route
+            exact
+            path="/reactstatesandhooks"
+            element={<ReactStateHooks />}
+          ></Route>
+          <Route
+            exact
+            path="/javafxenvironment"
+            element={<JavaFXEnvironment />}
+          ></Route>
+        </Routes>
+      </div>
         <div className={styles.cardContainer}>
           <Link exact to="/semanticresponsivity" className={styles.cardLink}>
             <div className={styles.cardArea}>
@@ -77,34 +105,15 @@ function Home() {
           </Link>
         </div>
       </div>
+      
+      {showArticle && (
+        <aside className={styles.sidebarContainer}>
+          <div className={styles.sidebar}>
+            <Sidebar />
+          </div>
+        </aside>
+      )}
 
-      <aside className={styles.sidebarContainer}>
-        <div className={styles.sidebar}>
-          <Sidebar />
-        </div>
-      </aside>
-      <Routes>
-        <Route
-          exact
-          path="/semanticresponsivity"
-          element={<SemanticResponsivity />}
-        ></Route>
-        <Route
-          exact
-          path="/springbootfunctions"
-          element={<SpringBootFunctions />}
-        ></Route>
-        <Route
-          exact
-          path="/reactstatesandhooks"
-          element={<ReactStateHooks />}
-        ></Route>
-        <Route
-          exact
-          path="/javafxenvironment"
-          element={<JavaFXEnvironment />}
-        ></Route>
-      </Routes>
     </main>
   );
 }

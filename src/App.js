@@ -20,8 +20,7 @@ function App() {
           <Banner  />
         </header>
         <div>
-          <Routes>
-            
+          <Routes>            
             <Route exact path="*" element={<Home />} />
             <Route exact path="/home/*" element={<Home />} />
             <Route exact path="/contact" element={<Contact />} />
